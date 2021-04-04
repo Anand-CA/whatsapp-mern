@@ -1,0 +1,30 @@
+.app {
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   background-color: #dadbd3;
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+}
+.app__container {
+   background-color: #ededed;
+   height: 90vh;
+   width: 60%;
+   display: flex;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media screen and (max-width: 992px) {
+   .app__container {
+      width: 90%;
+   }
+   audio{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .app__container {
+      width: 95%;
+   }
+   
+}

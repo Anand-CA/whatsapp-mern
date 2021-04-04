@@ -1,0 +1,109 @@
+.body {
+   flex: 1;
+   border: 1px solid lightgrey;
+   display: flex;
+   flex-direction: column;
+}
+.body__header {
+   display: flex;
+   justify-content: space-between;
+   /* background-color: deepskyblue; */
+   background-color: #fff;
+   align-items: center;
+   padding: 9px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bodyHeader__left {
+   display: flex;
+}
+.bodyHeader__center {
+   margin-left: 20px;
+}
+
+.bodyHeader__right {
+   display: flex;
+   justify-content: flex-end;
+}
+
+/* body main */
+.body__main {
+   overflow-y: scroll;
+   flex: 1;
+   background-position: center;
+   background-repeat: repeat;
+   padding: 30px;
+   background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}
+
+.body__message {
+   position: relative;
+   background-color: #fff;
+   display: flex;
+   padding: 3px 12px;
+   flex-direction: column;
+   width: fit-content;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   justify-content: space-between;
+}
+.body__message__receiver {
+   position: relative;
+   background-color: #dcf8c6;
+   display: flex;
+   padding: 3px 12px;
+   flex-direction: column;
+   width: fit-content;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   margin-left: auto;
+   text-align: right;
+   justify-content: space-between;
+}
+.bodyMessage__name {
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   top: -15px;
+   font-size: x-small;
+   font-weight: 900;
+   width: fit-content;
+}
+.bodyMessage__name__receiver {
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   top: -15px;
+   font-size: x-small;
+   font-weight: 900;
+   /*  */
+   right: 10px;
+   width: fit-content;
+}
+.bodyMessage__timestamp {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: x-small;
+   font-weight: 900;
+   margin: 2px 0px;
+}
+
+/* body footer */
+.body__footer {
+   height: 70px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   display: flex;
+   align-items: center;
+}
+.bodyFooter__searchContainer {
+   flex: 1;
+   display: flex;
+   align-items: center;
+}
+.bodyFooter__search {
+   flex: 1;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 3px;
+}
+.emoji__panel {
+   position: absolute;
+   margin-bottom: 33rem;
+   margin-left: 24rem;
+}
